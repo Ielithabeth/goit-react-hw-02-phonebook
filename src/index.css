@@ -2,24 +2,65 @@ body {
   margin: 0;
   font-family: 'Montserrat';
 
-  background-color: rgb(227, 227, 227);
+  background-color: #161616;
+  color: #ffffff;
 }
 
 #root {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 90px;
+  align-items: flex-start;
 
-  margin: 20px;
+  margin: 20px 96px;
+}
+
+h1,
+h2 {
+  margin-bottom: 28px;
 }
 
 ul {
   list-style-type: none;
-  margin: 0px;
+  margin: 28px 0px 0px 0px;
   padding: 0px;
 }
 
 p {
   margin: 0px;
+}
+
+input {
+  margin: 0px 16px;
+
+  background-color: inherit;
+  color: inherit;
+
+  border: none;
+  border-bottom: 1px solid #9c9c9c;
+  outline: none;
+
+  font-family: inherit;
+  font-size: 16px;
+}
+
+input:hover,
+input:focus {
+  border-bottom: 2px solid #ffffff;
+}
+
+button {
+  border: 1px solid #9c9c9c;
+  background-color: inherit;
+  color: inherit;
+
+  font-family: inherit;
+
+  transition: background-color 0.3s ease;
+}
+
+button:hover,
+button:focus {
+  background-color: #ff007b;
+  color: #161616;
+  border: none;
 }
